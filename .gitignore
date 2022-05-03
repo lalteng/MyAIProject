@@ -133,4 +133,4 @@ dmypy.json
 *.csv
 *.p
 *.npz
-
+model.tar.gz
