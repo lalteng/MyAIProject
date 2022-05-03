@@ -422,7 +422,7 @@
       "name": "relu4_3_cls_pred_conv_weight", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "36", 
+        "num_filter": "52", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -442,7 +442,7 @@
       "name": "relu4_3_cls_pred_conv", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "36", 
+        "num_filter": "52", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -668,7 +668,7 @@
       "name": "relu7_cls_pred_conv_weight", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "54", 
+        "num_filter": "78", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -688,7 +688,7 @@
       "name": "relu7_cls_pred_conv", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "54", 
+        "num_filter": "78", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -788,7 +788,7 @@
       "name": "multi_feat_2_conv_3x3_relu_cls_pred_conv_weight", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "54", 
+        "num_filter": "78", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -808,7 +808,7 @@
       "name": "multi_feat_2_conv_3x3_relu_cls_pred_conv", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "54", 
+        "num_filter": "78", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -908,7 +908,7 @@
       "name": "multi_feat_3_conv_3x3_relu_cls_pred_conv_weight", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "54", 
+        "num_filter": "78", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -928,7 +928,7 @@
       "name": "multi_feat_3_conv_3x3_relu_cls_pred_conv", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "54", 
+        "num_filter": "78", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -1028,7 +1028,7 @@
       "name": "multi_feat_4_conv_3x3_relu_cls_pred_conv_weight", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "54", 
+        "num_filter": "78", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -1048,7 +1048,7 @@
       "name": "multi_feat_4_conv_3x3_relu_cls_pred_conv", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "54", 
+        "num_filter": "78", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -1148,7 +1148,7 @@
       "name": "multi_feat_5_conv_3x3_relu_cls_pred_conv_weight", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "36", 
+        "num_filter": "52", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -1168,7 +1168,7 @@
       "name": "multi_feat_5_conv_3x3_relu_cls_pred_conv", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "36", 
+        "num_filter": "52", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -1268,7 +1268,7 @@
       "name": "multi_feat_6_conv_3x3_relu_cls_pred_conv_weight", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "36", 
+        "num_filter": "52", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -1288,7 +1288,7 @@
       "name": "multi_feat_6_conv_3x3_relu_cls_pred_conv", 
       "attrs": {
         "kernel": "(3, 3)", 
-        "num_filter": "36", 
+        "num_filter": "52", 
         "pad": "(1, 1)", 
         "stride": "(1, 1)"
       }, 
@@ -1317,7 +1317,7 @@
     {
       "op": "Reshape", 
       "name": "reshape0", 
-      "attrs": {"shape": "(0, -1, 9)"}, 
+      "attrs": {"shape": "(0, -1, 13)"}, 
       "inputs": [[144, 0, 0]]
     }, 
     {
